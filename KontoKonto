@@ -1,0 +1,58 @@
+public class konto {
+	int kontoNummer;
+	double guthaben;
+	int counter;
+	
+	   
+	konto() {
+		 this.kontoNummer = counter;
+	}
+	
+	konto(int kontoNummer) {
+		 this.kontoNummer = kontoNummer;
+	}
+	
+	konto(int kontoNummer, double guthaben) {
+		this.kontoNummer = kontoNummer;
+		this.guthaben = guthaben;
+	}
+	  
+	public int getKontonummer(){
+		return this.kontoNummer;
+    }
+	
+	public void setKontoNummer(int kontoNummer) {
+		this.kontoNummer = kontoNummer;
+	}
+	
+	public double getGuthaben() {
+		return this.guthaben;
+	}
+	
+	public void setGuthaben(double guthaben) {
+		this.guthaben = guthaben;
+	}
+	
+	public void getKontoInformationen() {
+		System.out.println("Kontonummer " +this.kontoNummer);
+		System.out.println("Guthaben " +this.guthaben);
+	}
+	
+	public void einzahlen(double guthaben) {
+		this.guthaben += guthaben;
+		System.out.println("Sie haben " + guthaben + " eingezahlt");
+	}
+	
+	public void auszahlen(double guthaben) {
+		this.guthaben -= guthaben;
+		System.out.println("Sie haben " + guthaben + " ausgezahlt");
+	}
+	
+	public boolean equals(Object o) {
+	    if (o == this) {
+	      return true;
+	    }
+	    return false;
+	}
+	
+}
