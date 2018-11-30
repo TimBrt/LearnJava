@@ -1,0 +1,36 @@
+public class girokonto extends konto {
+	double limit;
+	
+	girokonto() {
+		this.kontoNummer = counter;
+	}
+	
+	girokonto(int kontoNummer, double guthaben, double limit) {
+		this.kontoNummer = kontoNummer;
+		this.guthaben = guthaben;	
+		this.limit = limit;
+	}
+	
+	public double getLimit() {
+		return this.limit;
+	}
+	
+	public void setLimit(double limit) {
+		this.limit = limit;
+	}
+	
+	public void getKontoInformationen() {
+		System.out.println("Kontonummer "+this.kontoNummer);
+		System.out.println("Guthaben "+this.guthaben);
+		System.out.println("Limit " +this.limit);
+	}
+	
+	public void auszahlen(double betrag) {
+		if(this.guthaben - betrag > this.limit) {
+			this.guthaben -= betrag;
+			System.out.println("Sie haben " + betrag + " ausgezahlt");
+		} else {
+			System.out.println("Der Betrag überschreitet Ihr Limit");
+		}
+	}
+}
