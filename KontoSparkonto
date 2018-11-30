@@ -1,0 +1,29 @@
+public class sparkonto extends konto {
+	
+	double zinssatz;
+	
+	sparkonto() {
+		this.kontoNummer = counter;
+	}
+	
+	sparkonto(int kontoNummer, double guthaben, double zinssatz) {
+		this.kontoNummer = kontoNummer;
+		this.guthaben = guthaben;
+		this.zinssatz = zinssatz;
+	}
+	
+	public double getZinssatz() {
+		return this.zinssatz;
+	}
+	
+	public void setZinssatz(double zinssatz) {
+		this.zinssatz = zinssatz;
+	}
+	
+	public void getKontoInformationen() {
+		System.out.println("Kontonummer "+this.kontoNummer);
+		System.out.println("Guthaben "+this.guthaben);
+		System.out.println("Zinssatz "+this.zinssatz);
+	}
+
+}
