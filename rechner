@@ -1,0 +1,35 @@
+
+/**
+ * Ein Programm, welches für zwei über die Komandozeile 
+ * eingegebenen Werte die vier Grundrechenarten auführt und diese ausgibt.
+ * @author timob
+ *
+ */
+
+
+public class rechner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Variablen einlesen
+		double zahl1 = (double)Integer.parseInt(args[0]);
+		double zahl2 = (double)Integer.parseInt(args[1]);
+		
+		// Berechnen
+		double ergebnisAddition = zahl1 + zahl2;
+		double ergebnisSubtraktion = zahl1 - zahl2;
+		double ergebnisMultiplikation = zahl1 * zahl2;
+		double ergebnisDivision = zahl1 / zahl2;
+		
+		
+		// Ausgeben der Ergebnisse der Grundrechenarten
+		System.out.println("Für die Zahlen " + zahl1 + " und " + zahl2 + " betragen die Ergebnisse für die Grundrechenarten:");
+		
+		System.out.println("Addition: " + ergebnisAddition);
+		System.out.println("Subtraktion: " + ergebnisSubtraktion);
+		System.out.println("Multiplikation: " + ergebnisMultiplikation);
+		System.out.println("Division: " + ergebnisDivision);
+	}
+
+}
