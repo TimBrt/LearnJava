@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class scanner1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		// Zahl als int
+		
+		Scanner scanInt = new Scanner(System.in);
+				
+		System.out.println("Bitte geben Sie eine Zahl ein.");
+				
+		int zahl1 = scanInt.nextInt();
+				
+		System.out.println("Ihre Zahl lautet: " + zahl1);
+				
+				
+		
+		
+		
+		// zahl als double
+		
+		Scanner scanDouble = new Scanner(System.in);
+		
+		System.out.println("Bitte geben Sie eine Zahl ein.");
+		
+		double zahl2 = scanDouble.nextDouble();
+		
+		System.out.println("Ihre Zahl lautet: " + zahl2);
+		
+		
+		// Text Einlesen als String
+		
+		
+		Scanner scanName = new Scanner(System.in);
+		
+		System.out.println("Bitte geben Sie Ihren Namen ein:");
+		
+		String name = scanName.next();
+		
+		System.out.println("Ihr Name lautet: " + name);
+	}
+
+}
