@@ -1,0 +1,14 @@
+
+public class eingabe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int var1 = Integer.parseInt(args[0]);
+		int var2 = Integer.parseInt(args[1]);
+
+		// Schaue in die Runconfig! (im Menu bei Ausführen.)
+		
+	}
+
+}
