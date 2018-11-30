@@ -1,0 +1,26 @@
+
+public class autopreisausgeben {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	// Variablen initialisieren
+		
+	int autopreis = 3500;
+	
+	int alter = 18;
+	
+	String vorname = "Peter ";
+	
+	String nachname = "Mueller ";
+	
+	
+	// Informationen ausgeben
+	
+	System.out.println("Der Fahrer heisst " + vorname + nachname + "und sein Auto kostet " + autopreis +"€ !");
+		
+
+		
+	}
+
+}
