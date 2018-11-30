@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class quizfrageSwitchCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		// Quizfrage stellen
+		System.out.println("Wie viele Bundesländer hat Deutschland?");
+		
+		// Usereingabe
+		Scanner scan = new Scanner(System.in);
+		int eingabeUser = scan.nextInt();
+		
+		// Prüfen und Feedback geben
+		
+	switch (eingabeUser) {
+	case 16: {
+		System.out.println("Richtig!");
+	}
+		break;
+	case  10: {
+		System.out.println("Falsch!");
+	}
+		break;
+	default: System.out.println("unbekannte zahl!");
+		
+	}
+
+	}}
