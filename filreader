@@ -1,0 +1,42 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.LinkedList;
+
+public class filreader {
+  
+    public static void main(String[]args) throws IOException{
+      
+        BufferedReader reader = new BufferedReader(new FileReader("C:/Users/timob/Desktop/einlesen.txt"));
+        LinkedList<String> xyz = new LinkedList<String>();
+        int zähler = 1;
+        String numberAsString = String.format ("%07d", zähler);
+        
+        String h = null;
+        String[] h2;
+      
+        while((h=reader.readLine())!=null){
+        		h2 = h.substring(0, h.length()).split("\n");
+                
+                for(int i =0;i<h2.length;i++){
+                	xyz.add(h2[i]);
+                }     
+        }
+        
+        for(int i=0;i<xyz.size();i++){
+          
+                if(Character.isUpperCase(xyz.get(i).charAt(0))){
+                    System.out.println(numberAsString + ": " + xyz.get(i));
+                    zähler += 1;
+                    numberAsString = String.format ("%08d", zähler);
+                }
+        }
+          
+      System.out.println("Test");
+      
+        reader.close();
+        
+      
+    }
+
+}
