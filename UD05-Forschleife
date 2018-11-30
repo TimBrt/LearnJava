@@ -1,0 +1,25 @@
+/**
+ * Code zur Demonstration von For-Schleifen
+ * @author timob
+ *
+ */
+
+
+public class forschleife {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/* 	Aufbau einer For-Schleife
+		 * 	for (Anfangswert; Abbruchbedingung, Zähler)
+		 */
+		
+		//Beispiel für For-Schleife
+		
+		for (int i = 20; i >= -5; i--) {
+			System.out.println(i);
+		}
+		
+	}
+
+}
