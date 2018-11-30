@@ -1,0 +1,143 @@
+
+public class Dokumentation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		public class Dokumentation {
+		    public static void main(String args[]) {
+		    
+		    // Doku für für verwendete Methoden in java
+		    //Ablageort: C:\Users\timob\eclipse-workspace
+		    	
+		    	
+		    //Kommentare
+		    //-----------------------------------------
+		    // eine zeile
+		    /*
+		        mehrere
+		        Zeilen      */
+		        
+		    
+		    // Textausgabe
+		    //-----------------------------------------
+		    //mit Umbruch
+		    System.out.println("Hello World!" + i + ergebnis2);
+		    //ohne Umbruch (ausgabe direkt dahinter!)
+		    System.out.print("Hello World!" + i + ergebnis2);
+		    
+		    /*
+		    Formatierung der Textausgabe
+		    -------------------------------------------
+		    Formatangaben:
+		    %d – Ganzzahl in Dezimaldarstellung
+		    %x – Ganzzahl in Hexadezimaldarstellung
+		    %g – Gleitkommazahl
+		    %n – Zeilenumbruch
+		    %% – Ausgabe des Prozentzeichens
+		    
+		    Steuerzeichen:
+		    - – linksbundige Darstellung einer Zahl (Default: rechtsb ¨ undig) ¨
+		    + – rechtsbundige Darstellung einer Zahl (immer(!) mit Vorzeichen) ¨
+		    0 – Ausgabe der Zahl mit fuhrenden Nullen ¨
+		    m – Mindestbreite der Ausgabe fur diesen Bereich ¨
+		    .p – Anzahl der Nachkommstellen bei Kleitkommazahlen
+		    
+		    Beiepiel für formatierte Ausgabe:
+		    System.out.printf ("Die Quadratwurzel von %08d ist %+16g", 20, Math.sqrt(20));  ->  Die Quadratwurzel von 00000020 ist +4.47214
+
+		    */
+
+
+		    //Texteingabe
+		    //----------------------------------------
+		    //Mit args
+		    public static void main(String[] args) {
+		        int X = Integer.parseInt(args[0]);
+		        int Y = Integer.parseInt(args[1]);
+		        
+		    // Mit Scanner
+		    // Ganz oben einfügen
+		    Scanner sc = new Scanner(System.in);
+		    // unten
+		     int i = sc.nextInt();
+		    System.out.println(i);
+
+
+
+		    //Initialisierung von Variablen
+		    //---------------------------------------
+		    int a = 1;
+		    int b = 2*a+4;
+		    boolean check = true;
+		    String name = "Jenny";
+		    
+		    
+		    // Operatoren
+		    //----------------------------------------
+		    // Arithmetische Operatoren
+		    int ergebnis1 = 1 + 5;
+		    int ergebnis2 = 1 - 5;
+		    int ergebnis3 = 1 * 5;
+		    int ergebnis4 = 1 / 5;
+		    //Vorzeichenoperatoren 
+		    int posVorz = 1;
+		    int negatVorz= -3;    
+		    
+		    
+		    
+		    //Fallunterscheidungen
+		    //-----------------------
+		  
+		    /*If
+		    if (Bedingung) {
+		    	// Anweisung
+		    } else if (Bedingung2) {
+		    	// Andere Anweisungen
+		    } else {
+		    	// Noch einmal andere Anweisungen
+		    }
+		    */
+		   
+		    /*case
+		     * 
+		     */
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    // Kontrollstrukturen
+		    //-------------------
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		   
+		    //verwendete Methoden
+		    //--------------------
+		    
+		    //Funktion gibt die Quadratwurzel einer Zahl zurück
+		    //oben
+		    import java.lang.*;
+		    //unten
+		    math.sqrt.();
+		    
+		       
+		       
+		       
+		       
+		       
+		       
+		       
+		    }
+		}
+
+	}
+
+}
