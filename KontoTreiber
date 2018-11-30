@@ -1,0 +1,16 @@
+
+public class treiber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			
+			// Instanzieren der Variable
+			konto neuesKonto = new konto();
+			girokonto neuesGiroKonto = new girokonto(123465, 100, 0);
+			sparkonto neuesSparkonto = new sparkonto(654321, 1000, 1.75);
+
+		
+	}
+
+}
