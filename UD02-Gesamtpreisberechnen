@@ -1,0 +1,22 @@
+
+public class preis_berechnen_und_ausgeben {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Variablen für Preise initialisieren
+		int preis1 = 3500;
+		int preis2 = (int)2340.18;
+		
+		// Gesamtpreis berechnen
+		int gesamtpreis = preis1 + preis2;
+		
+		//Gesamtpreis ausgeben
+		System.out.println("Der Gesamtpreis beträgt " + gesamtpreis + "€ !");
+		
+		
+	
+		
+	}
+
+}
