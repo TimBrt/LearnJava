@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class quizfrage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Quizfrage stellen und Antwortmöglichkeiten aufzählen
+		System.out.println("Wie viele Bundeländer hat Deustchland?");
+		System.out.println("3, 12, oder 16?");
+		
+		// Antwort einlesen
+		Scanner scan = new Scanner(System.in);
+		int eingabe = scan.nextInt();
+		
+		// Antwort prüfen und Feedback geben.
+		if (eingabe == 3) {
+			System.out.println("Leider falsch!");			
+		}else if (eingabe == 12) {
+			System.out.println("Leider falsch!");
+		}else if (eingabe == 16) {
+			System.out.println("Ihre Antwort ist richtig!");
+		} else {
+			System.out.println("Das ist keine Antwortmöglichkeit!");
+		}
+		
+		scan.close();
+	
+	}
+
+}
